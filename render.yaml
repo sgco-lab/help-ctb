@@ -3,5 +3,5 @@ services:
     name: telegram-gpt-bot
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python3 src/bot.py
+    startCommand: python3 src/modules/bot.py
     plan: free
